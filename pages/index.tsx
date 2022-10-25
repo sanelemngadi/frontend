@@ -2,6 +2,15 @@ import type { NextPage } from 'next';
 import MetaData from '../meta';
 import styles from '../styles/Home.module.scss';
 
+// {
+//   "name": "Sanele Mngadi",
+//     "email_owner": "sanelemngadi17@gmail.com",
+//       "email_user": "218014972@stu.ukzn.ac.za",
+//         "subject": "Trauma caunselling",
+//           "message": "Hi this is sanele mngadi I send this email because I want to book for an appointment",
+//             "greetings": "Good morning Sanele"
+// }
+
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
