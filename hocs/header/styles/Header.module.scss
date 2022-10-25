@@ -1,0 +1,23 @@
+@import "../../../styles/abstract/mixins";
+@import "../../../styles/abstract/variables";
+
+.appbar {
+    min-height: 80px;
+    width: 100%;
+    padding: 0 1rem;
+    position: relative;
+    @include center();
+    background-color: $blue0;
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin-top: 24px;
+        row-gap: 1rem;
+    }
+}
